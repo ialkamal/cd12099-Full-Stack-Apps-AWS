@@ -1,7 +1,6 @@
 import express, { response } from "express";
 import bodyParser from "body-parser";
 import { filterImageFromURL, deleteLocalFiles } from "./util/util.js";
-import { resolve } from "path";
 
 // Init the Express application
 const app = express();
